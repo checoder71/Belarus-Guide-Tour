@@ -76,3 +76,7 @@ for _ in 0...5{
     let b = calculateState(playerTurn: Sign(rawValue: a)!, computerTurn: Sign(rawValue: random.nextInt())!)
     print(b)
 }
+
+for _ in 0...10{
+    print("nigger")
+}
