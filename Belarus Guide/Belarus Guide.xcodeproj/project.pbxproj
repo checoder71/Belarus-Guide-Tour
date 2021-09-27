@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C71D97E27021C6100C21357 /* Belarus_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71D97D27021C6100C21357 /* Belarus_GuideApp.swift */; };
+		2C71D98027021C6100C21357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71D97F27021C6100C21357 /* ContentView.swift */; };
+		2C71D98227021C6300C21357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C71D98127021C6300C21357 /* Assets.xcassets */; };
+		2C71D98527021C6300C21357 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C71D98427021C6300C21357 /* Preview Assets.xcassets */; };
+		2C71D98F27021C6300C21357 /* Belarus_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71D98E27021C6300C21357 /* Belarus_GuideTests.swift */; };
+		2C71D99927021C6300C21357 /* Belarus_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71D99827021C6300C21357 /* Belarus_GuideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C71D98B27021C6300C21357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C71D97227021C6000C21357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C71D97927021C6000C21357;
+			remoteInfo = "Belarus Guide";
+		};
+		2C71D99527021C6300C21357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C71D97227021C6000C21357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C71D97927021C6000C21357;
+			remoteInfo = "Belarus Guide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C71D97A27021C6000C21357 /* Belarus Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Belarus Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C71D97D27021C6100C21357 /* Belarus_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belarus_GuideApp.swift; sourceTree = "<group>"; };
+		2C71D97F27021C6100C21357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C71D98127021C6300C21357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C71D98427021C6300C21357 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C71D98A27021C6300C21357 /* Belarus GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Belarus GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C71D98E27021C6300C21357 /* Belarus_GuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belarus_GuideTests.swift; sourceTree = "<group>"; };
+		2C71D99427021C6300C21357 /* Belarus GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Belarus GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C71D99827021C6300C21357 /* Belarus_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belarus_GuideUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C71D97727021C6000C21357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C71D98727021C6300C21357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C71D99127021C6300C21357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C71D97127021C6000C21357 = {
+			isa = PBXGroup;
+			children = (
+				2C71D97C27021C6000C21357 /* Belarus Guide */,
+				2C71D98D27021C6300C21357 /* Belarus GuideTests */,
+				2C71D99727021C6300C21357 /* Belarus GuideUITests */,
+				2C71D97B27021C6000C21357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C71D97B27021C6000C21357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C71D97A27021C6000C21357 /* Belarus Guide.app */,
+				2C71D98A27021C6300C21357 /* Belarus GuideTests.xctest */,
+				2C71D99427021C6300C21357 /* Belarus GuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C71D97C27021C6000C21357 /* Belarus Guide */ = {
+			isa = PBXGroup;
+			children = (
+				2C71D97D27021C6100C21357 /* Belarus_GuideApp.swift */,
+				2C71D97F27021C6100C21357 /* ContentView.swift */,
+				2C71D98127021C6300C21357 /* Assets.xcassets */,
+				2C71D98327021C6300C21357 /* Preview Content */,
+			);
+			path = "Belarus Guide";
+			sourceTree = "<group>";
+		};
+		2C71D98327021C6300C21357 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C71D98427021C6300C21357 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C71D98D27021C6300C21357 /* Belarus GuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C71D98E27021C6300C21357 /* Belarus_GuideTests.swift */,
+			);
+			path = "Belarus GuideTests";
+			sourceTree = "<group>";
+		};
+		2C71D99727021C6300C21357 /* Belarus GuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C71D99827021C6300C21357 /* Belarus_GuideUITests.swift */,
+			);
+			path = "Belarus GuideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C71D97927021C6000C21357 /* Belarus Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C71D99C27021C6300C21357 /* Build configuration list for PBXNativeTarget "Belarus Guide" */;
+			buildPhases = (
+				2C71D97627021C6000C21357 /* Sources */,
+				2C71D97727021C6000C21357 /* Frameworks */,
+				2C71D97827021C6000C21357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Belarus Guide";
+			productName = "Belarus Guide";
+			productReference = 2C71D97A27021C6000C21357 /* Belarus Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C71D98927021C6300C21357 /* Belarus GuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C71D99F27021C6300C21357 /* Build configuration list for PBXNativeTarget "Belarus GuideTests" */;
+			buildPhases = (
+				2C71D98627021C6300C21357 /* Sources */,
+				2C71D98727021C6300C21357 /* Frameworks */,
+				2C71D98827021C6300C21357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C71D98C27021C6300C21357 /* PBXTargetDependency */,
+			);
+			name = "Belarus GuideTests";
+			productName = "Belarus GuideTests";
+			productReference = 2C71D98A27021C6300C21357 /* Belarus GuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C71D99327021C6300C21357 /* Belarus GuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C71D9A227021C6300C21357 /* Build configuration list for PBXNativeTarget "Belarus GuideUITests" */;
+			buildPhases = (
+				2C71D99027021C6300C21357 /* Sources */,
+				2C71D99127021C6300C21357 /* Frameworks */,
+				2C71D99227021C6300C21357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C71D99627021C6300C21357 /* PBXTargetDependency */,
+			);
+			name = "Belarus GuideUITests";
+			productName = "Belarus GuideUITests";
+			productReference = 2C71D99427021C6300C21357 /* Belarus GuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C71D97227021C6000C21357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					2C71D97927021C6000C21357 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2C71D98927021C6300C21357 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 2C71D97927021C6000C21357;
+					};
+					2C71D99327021C6300C21357 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 2C71D97927021C6000C21357;
+					};
+				};
+			};
+			buildConfigurationList = 2C71D97527021C6000C21357 /* Build configuration list for PBXProject "Belarus Guide" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C71D97127021C6000C21357;
+			productRefGroup = 2C71D97B27021C6000C21357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C71D97927021C6000C21357 /* Belarus Guide */,
+				2C71D98927021C6300C21357 /* Belarus GuideTests */,
+				2C71D99327021C6300C21357 /* Belarus GuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C71D97827021C6000C21357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C71D98527021C6300C21357 /* Preview Assets.xcassets in Resources */,
+				2C71D98227021C6300C21357 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C71D98827021C6300C21357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C71D99227021C6300C21357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C71D97627021C6000C21357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C71D98027021C6100C21357 /* ContentView.swift in Sources */,
+				2C71D97E27021C6100C21357 /* Belarus_GuideApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C71D98627021C6300C21357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C71D98F27021C6300C21357 /* Belarus_GuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C71D99027021C6300C21357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C71D99927021C6300C21357 /* Belarus_GuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C71D98C27021C6300C21357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C71D97927021C6000C21357 /* Belarus Guide */;
+			targetProxy = 2C71D98B27021C6300C21357 /* PBXContainerItemProxy */;
+		};
+		2C71D99627021C6300C21357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C71D97927021C6000C21357 /* Belarus Guide */;
+			targetProxy = 2C71D99527021C6300C21357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C71D99A27021C6300C21357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C71D99B27021C6300C21357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C71D99D27021C6300C21357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Belarus Guide/Preview Content\"";
+				DEVELOPMENT_TEAM = T3Y4D9N8H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy.Belarus-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C71D99E27021C6300C21357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Belarus Guide/Preview Content\"";
+				DEVELOPMENT_TEAM = T3Y4D9N8H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy.Belarus-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C71D9A027021C6300C21357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy.Belarus-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Belarus Guide.app/Belarus Guide";
+			};
+			name = Debug;
+		};
+		2C71D9A127021C6300C21357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy.Belarus-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Belarus Guide.app/Belarus Guide";
+			};
+			name = Release;
+		};
+		2C71D9A327021C6300C21357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy.Belarus-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Belarus Guide";
+			};
+			name = Debug;
+		};
+		2C71D9A427021C6300C21357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy.Belarus-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Belarus Guide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C71D97527021C6000C21357 /* Build configuration list for PBXProject "Belarus Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C71D99A27021C6300C21357 /* Debug */,
+				2C71D99B27021C6300C21357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C71D99C27021C6300C21357 /* Build configuration list for PBXNativeTarget "Belarus Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C71D99D27021C6300C21357 /* Debug */,
+				2C71D99E27021C6300C21357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C71D99F27021C6300C21357 /* Build configuration list for PBXNativeTarget "Belarus GuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C71D9A027021C6300C21357 /* Debug */,
+				2C71D9A127021C6300C21357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C71D9A227021C6300C21357 /* Build configuration list for PBXNativeTarget "Belarus GuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C71D9A327021C6300C21357 /* Debug */,
+				2C71D9A427021C6300C21357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C71D97227021C6000C21357 /* Project object */;
+}
